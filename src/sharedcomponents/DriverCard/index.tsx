@@ -10,8 +10,6 @@ const DriverCard = observer(({ driverId }: { driverId: string }) => {
     car_number,
     driver_name,
     driver_phone,
-    lat,
-    lon,
     address,
     distance
   } = drivers[driverId];

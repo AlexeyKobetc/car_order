@@ -1,8 +1,4 @@
-import { observer } from "mobx-react";
-import { useContextRootStore } from "../../store/store";
-
-const FirstHelp = observer(() => {
-  const { getOrderData } = useContextRootStore().rootStore;
+const FirstHelp = () => {
   return (
     <div className="modal fade" id="modal_help" tabIndex={-1} aria-labelledby="helpLabel" aria-hidden="true">
       <div className="modal-dialog modal-fullscreen">
@@ -82,6 +78,6 @@ const FirstHelp = observer(() => {
       </div>
     </div>
   );
-});
+};
 
 export default FirstHelp;

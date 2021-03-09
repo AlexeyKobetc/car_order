@@ -31,8 +31,6 @@ export interface IButton {
   modal?: boolean;
 }
 
-export type TDrivers = Array<IDriver>;
-
 export interface IDrivers {
   [name: string]: IDriver;
 }

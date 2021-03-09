@@ -6,7 +6,7 @@ const Button = observer(
     const { buttons, buttonsHandler, getIsAllInputsValid } = useContextRootStore().rootStore;
     const { labelText, disabled, bootStrapColor, modal } = buttons[name];
 
-    const classes = "btn" + " btn-outline-" + bootStrapColor;
+    const classes = `btn btn-outline-${bootStrapColor}`;
 
     return (
       <button

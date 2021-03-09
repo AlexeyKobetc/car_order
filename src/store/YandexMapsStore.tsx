@@ -539,7 +539,7 @@ class YandexMapsStore {
         .then(() => {
           this.coordsToAddressCodding({ latitude: coords[0], longitude: coords[1] })
             .then((address: any) => {
-              const { name, text } = address;
+              const { name } = address;
 
               this.setYmCarsProps(driverId, { latitude: coords[0], longitude: coords[1] }, meters, name);
 

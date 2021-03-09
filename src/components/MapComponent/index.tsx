@@ -1,5 +1,5 @@
 import { observer } from "mobx-react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { useContextRootStore } from "../../store/store";
 
 import styles from "./index.module.css";

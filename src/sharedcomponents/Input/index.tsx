@@ -3,7 +3,7 @@ import { useContextRootStore } from "../../store/store";
 
 const Input = observer(({ name }: { name: string }) => {
   const { inputs, inputsHandler } = useContextRootStore().rootStore;
-  const { textarea, labelText, placeHolder, helpText, errorLabel, value, isValid } = inputs[name];
+  const { textarea, labelText, placeHolder, errorLabel, value, isValid } = inputs[name];
 
   return (
     <div className="form-floating">

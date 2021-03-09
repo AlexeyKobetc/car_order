@@ -1,8 +1,8 @@
 import { action, computed, makeObservable, observable, reaction, runInAction } from "mobx";
-import { IDriver, IDrivers, IOrderForm, TDrivers } from "../sharedcomponents/interfaces";
+import { IOrderForm } from "../sharedcomponents/interfaces";
+
 import ButtonsStore from "./ButtonStore";
 import DriversStore from "./DriversStore";
-
 import InputsStore from "./InputsStore";
 import YandexMapsStore from "./YandexMapsStore";
 
