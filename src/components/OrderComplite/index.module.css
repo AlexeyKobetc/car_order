@@ -1,0 +1,32 @@
+.modal_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  background-color: rgba(255, 255, 2557, 0.8);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+}
+
+.modal_root {
+  position: relative;
+  width: auto;
+  margin: 0.5rem;
+
+  height: calc(100% - 1rem);
+  overflow-y: auto;
+}
+.modal_header {
+  margin: 3vh 3vw;
+  text-align: center;
+  color: rgb(31, 28, 28);
+}
+
+.modal_text {
+  margin: 1vh 3vw;
+
+  text-align: left;
+  color: rgb(31, 28, 28);
+}
