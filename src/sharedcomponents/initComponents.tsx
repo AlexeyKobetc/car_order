@@ -15,9 +15,9 @@ export const inputs: IInputs = {
   },
   destinationAddress: {
     textarea: false,
-    labelText: "Куда Вы поедите.",
-    placeHolder: "Куда Вы поедите.",
-    helpText: "Введите адрес куда Вы поедите.",
+    labelText: "Куда Вы поедете.",
+    placeHolder: "Куда Вы поедете.",
+    helpText: "Введите адрес куда Вы поедете.",
     errorLabel: "Уточните адрес",
     value: "",
     isValid: null,
