@@ -28,7 +28,11 @@ const MapComponent = observer(() => {
   });
 
   return (
-    <div className="col-12 col-sm-7 col-md-8 min-vh-60" style={{ position: "relative" }} ref={ymContainerRef}>
+    <div
+      className="col-12 col-sm-7 col-md-8"
+      style={{ position: "relative", minHeight: "60vh" }}
+      ref={ymContainerRef}
+    >
       <div className={styles.loading}>
         <div className="ps-4 pt-2">
           <h1 className="text-secondary">Загружается карта ...</h1>

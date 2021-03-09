@@ -6,7 +6,10 @@ const CarsComponet = observer(() => {
   const { drivers, getYmCarsSortedIDs } = useContextRootStore().rootStore;
 
   return (
-    <div className="col-12 col-sm-4 col-md-3 d-flex flex-column justify-content-start align-items-center">
+    <div
+      className="col-12 col-sm-4 col-md-3 d-flex flex-column justify-content-start align-items-center"
+      style={{ minHeight: "60vh" }}
+    >
       {getYmCarsSortedIDs.length
         ? getYmCarsSortedIDs.map(index => {
             const { carId } = index;
